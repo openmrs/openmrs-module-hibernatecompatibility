@@ -27,7 +27,7 @@
 	</modules>
 	
 	<properties>
-		<openMRSVersion>1.6.5</openMRSVersion>
+		<openMRSVersion>1.9.0</openMRSVersion>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
@@ -42,22 +42,6 @@
 				<version>${openMRSVersion}</version>
 				<type>jar</type>
 				<scope>provided</scope>
-			</dependency>
-
-			<dependency>
-				<groupId>org.openmrs.web</groupId>
-				<artifactId>openmrs-web</artifactId>
-				<version>${openMRSVersion}</version>
-				<type>jar</type>
-				<scope>provided</scope>
-			</dependency>
-			
-			<dependency>
-				<groupId>org.openmrs.test</groupId>
-				<artifactId>openmrs-test</artifactId>
-				<version>${openMRSVersion}</version>
-				<type>jar</type>
-				<scope>test</scope>
 			</dependency>
 						
 			<!-- End OpenMRS core -->
