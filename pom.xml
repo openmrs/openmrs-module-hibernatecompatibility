@@ -7,7 +7,7 @@
 	<version>1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>Hibernate Compatibility Module</name>
-	<description>Provides a compatibility layer for modules to run under Hibernate 3 or 4</description>
+	<description>Provides a compatibility layer for OpenMRS modules to run under Hibernate 3 or 4</description>
 	<url>http://openmrs.org</url>
 	
 	<organization>
