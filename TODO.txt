@@ -1,0 +1,11 @@
+port contents into actual openmrs github repo once created
+
+get the module built in CI
+
+release v 1.0 of the module (after code review)
+
+set up JIRA for module
+
+have raff update openmrs talk discussion with instructions on use of the new module?
+
+update JIRA ticket relating to fixing modules to work w Hibernate 4
