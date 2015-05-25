@@ -19,5 +19,8 @@
 
 	<!-- Add here beans related to the API context -->
 
+	<bean id="dbSessionFactory" class="org.openmrs.api.db.hibernate.DbSessionFactory">
+		<constructor-arg name="sessionFactory" ref="sessionFactory" />
+	</bean>
 	
 </beans>
